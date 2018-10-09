@@ -1,73 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[<div "result">click on the Day (PASSED : 0s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Weather Condition is most dominated or current condition (PASSED : 0s)</div>]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9770" started-at="2017-10-15T13:33:39Z" finished-at="2017-10-15T13:33:49Z">
+  <suite name="Default suite" duration-ms="29101" started-at="2018-10-08T08:41:06Z" finished-at="2018-10-08T08:41:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9770" started-at="2017-10-15T13:33:39Z" finished-at="2017-10-15T13:33:49Z">
-      <class name="runner.TestNgRunner">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:runner.TestNgRunner@15b5592]" name="beforeSuite" is-config="true" duration-ms="641" started-at="2017-10-15T19:03:38Z" finished-at="2017-10-15T19:03:39Z">
+    <test name="Default test" duration-ms="29101" started-at="2018-10-08T08:41:06Z" finished-at="2018-10-08T08:41:35Z">
+      <class name="testcases.LaunchTheUrl">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="beforeSuite" is-config="true" duration-ms="680" started-at="2018-10-08T01:41:05Z" finished-at="2018-10-08T01:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:runner.TestNgRunner@15b5592]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-10-15T19:03:39Z" finished-at="2017-10-15T19:03:39Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="setData" is-config="true" duration-ms="0" started-at="2018-10-08T01:41:06Z" finished-at="2018-10-08T01:41:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestNgRunner@15b5592]" name="setUpClass" is-config="true" duration-ms="691" started-at="2017-10-15T19:03:39Z" finished-at="2017-10-15T19:03:40Z">
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-10-08T01:41:06Z" finished-at="2018-10-08T01:41:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.TestNgRunner@15b5592]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-15T19:03:40Z" finished-at="2017-10-15T19:03:40Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="beforeMethod" is-config="true" duration-ms="25634" started-at="2018-10-08T01:41:06Z" finished-at="2018-10-08T01:41:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="runFeature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestNgRunner@15b5592]" name="runFeature" duration-ms="9019" started-at="2017-10-15T19:03:40Z" data-provider="scenarios" finished-at="2017-10-15T19:03:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Daily Forecast Summarise details (Positive Case)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Daily Forecast Summarise details"]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="verifysearch()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="verifysearch" duration-ms="1775" started-at="2018-10-08T01:41:31Z" finished-at="2018-10-08T01:41:33Z">
           <reporter-output>
-            <line>
-              <![CDATA[<div "result">click on the Day (PASSED : 0s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Weather Condition is most dominated or current condition (PASSED : 0s)</div>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- runFeature -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.TestNgRunner@15b5592]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-10-15T19:03:49Z" finished-at="2017-10-15T19:03:49Z">
+        </test-method> <!-- verifysearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="afterMethod" is-config="true" duration-ms="1632" started-at="2018-10-08T01:41:33Z" finished-at="2018-10-08T01:41:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestNgRunner@15b5592]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2017-10-15T19:03:49Z" finished-at="2017-10-15T19:03:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:runner.TestNgRunner@15b5592]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-10-15T19:03:49Z" finished-at="2017-10-15T19:03:49Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-10-08T01:41:35Z" finished-at="2018-10-08T01:41:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:runner.TestNgRunner@15b5592]" name="afterSuite" is-config="true" duration-ms="407" started-at="2017-10-15T19:03:49Z" finished-at="2017-10-15T19:03:49Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="afterSuite" is-config="true" duration-ms="794" started-at="2018-10-08T01:41:35Z" finished-at="2018-10-08T01:41:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- runner.TestNgRunner -->
+      </class> <!-- testcases.LaunchTheUrl -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

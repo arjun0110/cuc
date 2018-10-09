@@ -15,10 +15,11 @@ public abstract class Reporter {
 	public static ExtentReports extent;
 	public static ExtentTest test, suiteTest;
 	public String testCaseName, testNodes, testDescription, category, authors;
+	public String imagelocation="./../reports/images/";
 
 
 	public void startResult() {
-		html = new ExtentHtmlReporter("./reports/pdjuses.html");
+		html = new ExtentHtmlReporter("./reports/MyAccounts.html");
 		html.setAppendExisting(true);		
 		extent = new ExtentReports();		
 		extent.attachReporter(html);	
@@ -49,7 +50,7 @@ public abstract class Reporter {
 			snapNumber = takeSnap();
 			try {
 				img = MediaEntityBuilder.createScreenCaptureFromPath
-						("./../reports/images/"+snapNumber+".jpg").build();
+						("reports/"+snapNumber+".jpg").build();
 			} catch (IOException e) {				
 			}
 		}

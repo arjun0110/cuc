@@ -2,9 +2,10 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -48,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Genius\AppData\Local\Temp\testng-eclipse--1594511604\testng-customsuite.xml</span>
+                    <span>C:\Users\hi\AppData\Local\Temp\testng-eclipse--1710437264\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="runner.TestNgRunner" hash-for-method="runFeature(&quot;Daily Forecast Summarise details (Positive Case)&quot;, &quot;Daily Forecast Summarise details&quot;)">runFeature("Daily Forecast Summarise details (Positive Case)", "Daily Forecast Summarise details")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.LaunchTheUrl" hash-for-method="verifysearch">verifysearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,15 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">runner.TestNgRunner</span>
+              <span class="class-name">testcases.LaunchTheUrl</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runFeature(&quot;Daily Forecast Summarise details (Positive Case)&quot;, &quot;Daily Forecast Summarise details&quot;)">
-                  </a> <!-- runFeature("Daily Forecast Summarise details (Positive Case)", "Daily Forecast Summarise details") -->
-                  <span class="method-name">runFeature</span>
-                  <span class="parameters">("Daily Forecast Summarise details (Positive Case)", "Daily Forecast Summarise details")</span>
+                  <a name="verifysearch">
+                  </a> <!-- verifysearch -->
+                  <span class="method-name">verifysearch</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,16 +135,16 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Genius\AppData\Local\Temp\testng-eclipse--1594511604\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\hi\AppData\Local\Temp\testng-eclipse--1710437264\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;runner.TestNgRunner&quot;/&gt;
+      &lt;class name=&quot;testcases.LaunchTheUrl&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runFeature')
-data.setCell(0, 2, 'runner.TestNgRunner')
-data.setCell(0, 3, 9019);
+data.setCell(0, 1, 'verifysearch')
+data.setCell(0, 2, 'testcases.LaunchTheUrl')
+data.setCell(0, 3, 1775);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -204,13 +204,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">runFeature("Daily Forecast Summarise details (Positive Case)", "Daily Forecast Summarise details")</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><div "result">click on the Day (PASSED : 0s)</div></span>
-                <span class="reporter-method-output"><div "result">Weather Condition is most dominated or current condition (PASSED : 0s)</div></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -226,42 +219,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">runner.TestNgRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.LaunchTheUrl</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">643 ms</span>
+                <span class="method-name">setData</span>
+                <span class="method-start">680 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass</span>
-                <span class="method-start">650 ms</span>
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">696 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">1385 ms</span>
+                <span class="method-start">712 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">runFeature("Daily Forecast Summarise details (Positive Case)", "Daily Forecast Summarise details")</span>
-                <span class="method-start">1385 ms</span>
+                <span class="method-name">verifysearch</span>
+                <span class="method-start">26346 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">10405 ms</span>
+                <span class="method-start">28149 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">10406 ms</span>
-              </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">10411 ms</span>
+                <span class="method-start">29781 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">10443 ms</span>
+                <span class="method-start">29880 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

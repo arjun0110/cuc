@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="runner.TestNgRunner">
+      <class name="testcases.LoginFlow">
         <methods>
-          <include name="setUpClass"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
+          <include name="setData"/>
           <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="tearDownClass"/>
-          <include name="runFeature" invocation-numbers="0"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- runner.TestNgRunner -->
+      </class> <!-- testcases.LoginFlow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
