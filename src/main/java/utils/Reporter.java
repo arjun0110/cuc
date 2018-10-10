@@ -19,7 +19,7 @@ public abstract class Reporter {
 
 
 	public void startResult() {
-		html = new ExtentHtmlReporter("C:\\Users\\hi\\Desktop\\erer\\reports\\test.html");
+		html = new ExtentHtmlReporter("./reports/test.html");
 		html.setAppendExisting(true);		
 		extent = new ExtentReports();		
 		extent.attachReporter(html);	
