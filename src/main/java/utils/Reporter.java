@@ -19,7 +19,7 @@ public abstract class Reporter {
 
 
 	public void startResult() {
-		html = new ExtentHtmlReporter("./reports/MyAccounts.html");
+		html = new ExtentHtmlReporter("./reports/test.html");
 		html.setAppendExisting(true);		
 		extent = new ExtentReports();		
 		extent.attachReporter(html);	
@@ -50,7 +50,7 @@ public abstract class Reporter {
 			snapNumber = takeSnap();
 			try {
 				img = MediaEntityBuilder.createScreenCaptureFromPath
-						("reports/"+snapNumber+".jpg").build();
+						("./../reports/images/"+snapNumber+".jpg").build();
 			} catch (IOException e) {				
 			}
 		}
