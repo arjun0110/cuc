@@ -2,44 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29101" started-at="2018-10-08T08:41:06Z" finished-at="2018-10-08T08:41:35Z">
+  <suite name="Suite" duration-ms="63208" started-at="2018-10-10T05:08:47Z" finished-at="2018-10-10T05:09:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29101" started-at="2018-10-08T08:41:06Z" finished-at="2018-10-08T08:41:35Z">
-      <class name="testcases.LaunchTheUrl">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="beforeSuite" is-config="true" duration-ms="680" started-at="2018-10-08T01:41:05Z" finished-at="2018-10-08T01:41:06Z">
+    <test name="Test" duration-ms="63208" started-at="2018-10-10T05:08:47Z" finished-at="2018-10-10T05:09:51Z">
+      <class name="testcases.LoginFlow">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.LoginFlow@235b8e]" name="beforeSuite" is-config="true" duration-ms="264" started-at="2018-10-09T22:08:47Z" finished-at="2018-10-09T22:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="setData" is-config="true" duration-ms="0" started-at="2018-10-08T01:41:06Z" finished-at="2018-10-08T01:41:06Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.LoginFlow@235b8e]" name="setData" is-config="true" duration-ms="1" started-at="2018-10-09T22:08:47Z" finished-at="2018-10-09T22:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-10-08T01:41:06Z" finished-at="2018-10-08T01:41:06Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.LoginFlow@235b8e]" name="beforeClass" is-config="true" duration-ms="4" started-at="2018-10-09T22:08:47Z" finished-at="2018-10-09T22:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="beforeMethod" is-config="true" duration-ms="25634" started-at="2018-10-08T01:41:06Z" finished-at="2018-10-08T01:41:31Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.LoginFlow@235b8e]" name="beforeMethod" is-config="true" duration-ms="23069" started-at="2018-10-09T22:08:49Z" finished-at="2018-10-09T22:09:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifysearch()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="verifysearch" duration-ms="1775" started-at="2018-10-08T01:41:31Z" finished-at="2018-10-08T01:41:33Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginFlow@235b8e]" name="Login" duration-ms="36416" started-at="2018-10-09T22:09:12Z" data-provider="fetchData" finished-at="2018-10-09T22:09:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0a@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cameraman12$]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifysearch -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="afterMethod" is-config="true" duration-ms="1632" started-at="2018-10-08T01:41:33Z" finished-at="2018-10-08T01:41:35Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.LoginFlow@235b8e]" name="afterMethod" is-config="true" duration-ms="2495" started-at="2018-10-09T22:09:48Z" finished-at="2018-10-09T22:09:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-10-08T01:41:35Z" finished-at="2018-10-08T01:41:35Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginFlow@235b8e]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-10-09T22:09:51Z" finished-at="2018-10-09T22:09:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.LaunchTheUrl@235b8e]" name="afterSuite" is-config="true" duration-ms="794" started-at="2018-10-08T01:41:35Z" finished-at="2018-10-08T01:41:36Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.LoginFlow@235b8e]" name="afterSuite" is-config="true" duration-ms="720" started-at="2018-10-09T22:09:51Z" finished-at="2018-10-09T22:09:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.LaunchTheUrl -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.LoginFlow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
