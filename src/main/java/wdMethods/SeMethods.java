@@ -373,7 +373,7 @@ public class SeMethods extends Reporter implements WdMethods{
 	public long takeSnap(){
 		long number = (long) Math.floor(Math.random() * 900000000L) + 10000000L; 
 		try {
-			FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE) , new File("./reports/images/"+number+".jpg"));
+			FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE) , new File("C:\\Users\\hi\\Desktop\\erer\\reports\\images\\"+number+".jpg"));
 		} catch (WebDriverException e) {
 			System.out.println("The browser has been closed.");
 		} catch (IOException e) {
