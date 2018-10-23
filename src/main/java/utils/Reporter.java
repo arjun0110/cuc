@@ -50,7 +50,7 @@ public abstract class Reporter {
 			snapNumber = takeSnap();
 			try {
 				img = MediaEntityBuilder.createScreenCaptureFromPath
-						("./../reports/images/"+snapNumber+".jpeg").build();
+						("./../reports/images/"+snapNumber+".jpg").build();
 			} catch (IOException e) {				
 			}
 		}
